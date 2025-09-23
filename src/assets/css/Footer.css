@@ -1,0 +1,8 @@
+.footer-name{
+    color: rgba(0, 0, 0, 0.672);
+    font-weight:700;
+    text-transform: uppercase;
+}
+.footer-item{
+    font-weight:600;
+}

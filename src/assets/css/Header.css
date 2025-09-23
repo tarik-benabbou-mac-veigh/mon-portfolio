@@ -1,0 +1,10 @@
+.nav-logo{
+    font-weight:500;
+    text-transform: uppercase;
+}
+.nav-link{
+    font-weight:600;
+}
+.nav-link:hover{
+    background-color: rgba(38, 38, 239, 0.791);
+}
