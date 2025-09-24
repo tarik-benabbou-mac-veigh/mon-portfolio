@@ -6,5 +6,9 @@
     font-weight:600;
 }
 .nav-link:hover{
-    background-color: rgba(38, 38, 239, 0.791);
+    background-color: rgb(72, 94, 180);
+}
+
+.blue-color{
+    color: rgb(100, 126, 230);
 }
