@@ -1,0 +1,19 @@
+.tech-icon {
+    height: 120px; 
+    width: 120px; 
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}
+
+.certif-icon {
+    height: 200px; 
+    width: 200px; 
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}
+
+.title-color{
+    color:#3251a6ff;
+}
