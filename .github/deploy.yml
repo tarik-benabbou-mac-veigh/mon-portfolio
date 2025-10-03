@@ -38,7 +38,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 🚨 C'est la ligne la plus importante : elle indique le dossier à publier
+          # indique le dossier à publier
           path: './dist' 
 
       - name: Deploy to GitHub Pages
