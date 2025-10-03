@@ -1,0 +1,14 @@
+.modal-body-custom {
+  background: linear-gradient(135deg, #4e71d2, #6a8ff0);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #4e71d2, #6a8ff0);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+}

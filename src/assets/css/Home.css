@@ -1,4 +1,36 @@
-.test{
-    border: 5px;
-    border-color: black;
+.section-bg {
+  background: linear-gradient(120deg, #6a9ff8, #b3c8ff, #5b7cfa);
+  background-size: 200% 200%;
+  animation: gradientShift 10s ease infinite;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.btn-gradient {
+  background: linear-gradient(90deg, #6083e2, #6a8ff0);
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-gradient:hover {
+  transform: scale(1.13);
+}
+.gradient {
+  background: linear-gradient(90deg, #6083e2f7, #6a8ff0);
+  border: none;
+  transition: all 0.5s ease;
+}
+.gradient:hover {
+  transform: scale(1.03);
+}
+.first-name {
+  color: #3251a6ff;
+  font-weight: bolder;
+}
+img{
+  background-color: transparent;
+}
+.bg-custom{
+  background: linear-gradient(120deg, #6a9ff8, #a8bfff, #7a89fa);
 }

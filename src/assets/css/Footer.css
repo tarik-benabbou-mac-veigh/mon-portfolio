@@ -7,3 +7,15 @@
 .footer-item{
     font-weight:600;
 }
+
+.social-icon-gradient {
+  background: linear-gradient(90deg, #6083e2, #6a8ff0);
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  display: inline-block; 
+  transition: transform 0.5s ease-in-out; 
+}
+.social-icon-gradient:hover {
+  transform: scale(1.2); 
+}
