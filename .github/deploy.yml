@@ -1,0 +1,46 @@
+# Fichier: .github/workflows/deploy.yml
+
+name: Deploy to GitHub Pages
+
+on:
+  # Déclenche le workflow à chaque push sur la branche 'main'
+  push:
+    branches:
+      - main
+  # Permet de lancer le workflow manuellement depuis l'onglet Actions
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      # 1. Installer Node.js et les dépendances
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Utilisez la version de Node.js que vous avez localement
+
+      - name: Install Dependencies
+        run: npm install
+
+      # 2. Lancer la construction (npm run build)
+      - name: Build Project
+        run: npm run build
+      
+      # 3. Préparer et Publier le contenu du dossier 'dist'
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # 🚨 C'est la ligne la plus importante : elle indique le dossier à publier
+          path: './dist' 
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
