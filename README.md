@@ -1,12 +1,47 @@
-# React + Vite
+# Portfolio personnel : Tarik - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Candidature pour un stage de développeur web junior**
+> **Démo en ligne :** [Lien vers la version hébergée du portfolio]
 
-Currently, two official plugins are available:
+Ce dépôt contient le code source complet de mon portfolio personnel. Il ne s'agit pas seulement d'un CV en ligne, mais d'une **présentation des différents langages appris et des projets réalisés depuis un an**. J'en ai profité pour utiliser React dans le but de me familiariser avec cette bibliothèque puissante et intéressante à utiliser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Les objectifs de conception
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ce portfolio a été conçu pour :
+
+* **Présenter mon profil :** venant d'une autre branche professionnelle, je suis en reconversion dans le développement web.
+* **Présenter les langages appris :** tout en étant toujours en apprentissage (avec une préférence pour le back-end et les bases de données).
+* **Mettre en valeur les réalisations :** presentation de mes projets personnels avec des descriptions claires, des liens directs vers les dépôts.
+
+---
+
+
+## Guide de démarrage rapide
+
+### **Prérequis**
+
+Assurez-vous d'avoir VSCode d'installé sur votre machine (ce qui ne fait aucun doute 😊).
+
+### **Installation**
+
+1.  **Cloner le dépôt :**
+    ```bash
+    git clone https://github.com/tarik-benabbou-mac-veigh/mon-portfolio.git
+    ```
+
+2.  **Lancer le projet en local :**
+    ```bash
+    npm run dev  # ou l'équivalent de votre projet
+    ```
+    Le projet devrait être accessible à l'adresse `http://localhost:5173`.
+
+---
+
+## 📬 Contact
+
+N'hésitez pas à me contacter si vous avez des questions sur chacun de mes projets et ou si vous souhaitez accueillir un stagiaire.
+
+* **Profil LinkedIn :** [Tarik Benabbou-Mac Veigh](https://www.linkedin.com/in/tarik-benabbou-mac-veigh-a8b186100/)
+* **Email :** [tarik.bmacveigh@hotmail.com](mailto:tarik.bmacveigh@hotmail.com)
