@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import tarik from "../assets/images/tarik.png";
 import Attestation_cef from "../assets/files/Attestation_cef.pdf";
+import cv_tarik_bmv from "../assets/files/cv_tarik_bmv.pdf";
 import Typewriter from "typewriter-effect";
 import "../assets/css/Home.css";
 
@@ -53,10 +54,10 @@ export default function Home() {
                 <div className="p-5 text-white rounded-3 shadow bg-custom">
                   <h2>Parcours 📝</h2>
                   {/* Sur mobile uniquement */}
-                  <p className="mt-3 text-black fs-5 d-block d-md-none">Après 8 années en paie, mon intérêt se porte sur le développement web, les data, et les nouvelles technologies.</p>
+                  <p className="mt-3 text-black fs-5 d-block d-md-none">Gestionnaire de paie depuis 8 ans, mon intérêt se porte sur le développement web, les data, et les nouvelles technologies.</p>
                   {/* Sur desktop et tablette */}
-                  <p className="mt-3 text-black fs-5 d-none d-md-block">Après 8 années passées en paie, <strong>mon intérêt pour le secteur du web</strong> n'a cessé de grandir, grâce à la transformation numérique et l'émergence de technologies puissantes et passionnantes. <br/><br/>Cette curiosité pour l'innovation, notamment l'<strong>IA</strong> et les <strong>data</strong>, est le moteur de ma reconversion pour devenir développeur.</p>
-                  <Button href="#" target="_blank" className="btn-gradient fw-bolder mt-3 px-5 py-3 rounded-pill shadow-sm text-white">Télécharger mon CV</Button>
+                  <p className="mt-3 text-black fs-5 d-none d-md-block">Gestionnaire de paie depuis 8 ans, <strong>mon intérêt pour le secteur du web</strong> n'a cessé de grandir, grâce à la transformation numérique et l'émergence de technologies puissantes et passionnantes. <br/><br/>Cette curiosité pour l'innovation, notamment l'<strong>IA</strong> et les <strong>data</strong>, est le moteur de ma reconversion pour devenir développeur.</p>
+                  <Button href={cv_tarik_bmv} target="_blank" className="btn-gradient fw-bolder mt-3 px-5 py-3 rounded-pill shadow-sm text-white">Télécharger mon CV</Button>
                 </div>
               </div>
               <div>
